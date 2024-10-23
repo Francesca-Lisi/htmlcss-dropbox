@@ -9,15 +9,21 @@
 li{
   list-style-type: none;
 }
-/* 
+
 .debug{
   background-color: rgba(127, 255, 255, 0.151);
   border: 1px solid black;
   min-height: 50px;
-} */
+}
 
 .d-flex{
   display: flex;
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
 
 .container-hf{
@@ -116,4 +122,26 @@ a img{
   left: 0;
   font-size: 50px;
   color: black;
+}
+
+header .button:hover{
+  background-color: #3f89ff;
+}
+
+header a.b-b:hover{
+  border-bottom: 2px solid black;
+}
+/***************MAIN***************/
+#tariffa .row{
+  justify-content: space-between;
+}
+
+#tariffa .col{
+  width: 100%;
+  margin: 0;
+}
+
+#tariffa .row div.col{
+  width: 300px;
+  margin-bottom: 50px;
 }
