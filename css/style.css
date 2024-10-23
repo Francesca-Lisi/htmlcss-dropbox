@@ -132,6 +132,10 @@ header a.b-b:hover{
   border-bottom: 2px solid black;
 }
 /***************MAIN***************/
+main{
+  font-size: 14px;
+}
+
 #tariffa h2{
   font-size: 40px;
   font-weight: 700;
@@ -174,16 +178,51 @@ header a.b-b:hover{
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #D0D0D3;
 }
 
 #tariffa li{
-  padding-left: 30px;
+  padding: 0 0 25px 30px;
   position: relative;
 }
-#tariffa .price{
-  margin-bottom: 10px;
+
+#tariffa span.price{
+  font-weight: 800;
+  line-height: 40px;
 }
+
+#tariffa span.time{
+  display: block;
+  margin-bottom: 50px;
+}
+
+#tariffa span.button{
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  margin: 30px auto;
+}
+
+#tariffa .or{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #D0D0D3;
+}
+
+
+#tariffa span.or a{
+  padding-bottom: 30px;
+  border-bottom: 3px solid white;
+}
+
+#tariffa ul.check{
+  margin-top: 60px;
+}
+
+#tariffa ul.check li:first-child{
+  font-weight: 800;
+  padding-left: 0;
+}
+
 /* #tariffa li.user::before{
   content:'--user';
   position: absolute;
