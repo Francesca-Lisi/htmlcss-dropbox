@@ -132,8 +132,30 @@ header a.b-b:hover{
   border-bottom: 2px solid black;
 }
 /***************MAIN***************/
+#tariffa h2{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+#tariffa h3{
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.fatturazione{
+  display: inline;
+  margin-right: 50px;
+}
+
+.inner-conteiner{
+  padding: 40px 30px;
+}
+
 #tariffa .row{
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 #tariffa .col{
@@ -145,3 +167,27 @@ header a.b-b:hover{
   width: 300px;
   margin-bottom: 50px;
 }
+
+#tariffa span.category{
+  display: block;
+  width: 300px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+#tariffa li{
+  padding-left: 30px;
+  position: relative;
+}
+#tariffa .price{
+  margin-bottom: 10px;
+}
+/* #tariffa li.user::before{
+  content:'--user';
+  position: absolute;
+  left: 0;
+} */
+
+/* <i class="fa-solid fa-user-group"></i> */
