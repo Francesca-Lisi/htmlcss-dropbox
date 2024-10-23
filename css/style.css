@@ -3,3 +3,35 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.debug{
+  background-color: rgba(127, 255, 255, 0.151);
+  border: 1px solid black;
+  min-height: 50px;
+}
+
+.d-flex{
+  display: flex;
+}
+
+/***************HEADER***************/
+
+.container-hf{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+header .col:first-child{
+  width: 35%;
+}
+
+header .col:last-child{
+  width: 65%;
+}
+
+.header-top{
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
