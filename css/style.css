@@ -136,6 +136,15 @@ main{
   font-size: 14px;
 }
 
+.card{
+  width: 100%;
+}
+
+.card-bottom .inner-conteiner{
+  position: relative;
+  width: 1000px;
+}
+
 #tariffa h2{
   font-size: 40px;
   font-weight: 700;
@@ -154,7 +163,7 @@ main{
 }
 
 .inner-conteiner{
-  padding: 40px 30px;
+  padding: 30px 30px;
 }
 
 #tariffa .row{
@@ -174,7 +183,7 @@ main{
 
 #tariffa span.category{
   display: block;
-  width: 300px;
+  width: 100%;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -199,7 +208,7 @@ main{
 #tariffa span.button{
   display: block;
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
   margin: 30px auto;
 }
 
@@ -221,6 +230,17 @@ main{
 #tariffa ul.check li:first-child{
   font-weight: 800;
   padding-left: 0;
+}
+
+.card-bottom span.button.cb{
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 30px;
+}
+
+#tariffa .button:hover{
+  background-color: #3f89ff;
 }
 
 /* #tariffa li.user::before{
