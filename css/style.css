@@ -111,8 +111,8 @@ nav ul li{
 }
 
 a.button{
-  line-height: 28px;
-  padding: 5px 15px;
+  line-height: 30px;
+  padding: 6px 15px;
 }
 
 a img{
@@ -217,7 +217,7 @@ main{
   margin-bottom: 50px;
 }
 
-#tariffa span.button{
+#tariffa a.button{
   display: block;
   margin: 30px auto;
   text-align: center;
