@@ -33,11 +33,11 @@ a.button{
   padding: 5px 10px;
 }
 
-.debug{
+/* .debug{
   background-color: rgba(127, 255, 255, 0.151);
   border: 1px solid black;
   min-height: 50px;
-}
+} */
 
 .d-flex{
   display: flex;
@@ -156,12 +156,13 @@ header a.b-b:hover{
   border-bottom: 2px solid black;
 }
 /***************MAIN***************/
-main{
+#tariffa{
   font-size: 14px;
 }
 
-.card{
+.card, .card-bottom{
   width: 100%;
+  border: 1px solid #D0D0D3;
 }
 
 .card-bottom .inner-conteiner{
@@ -247,7 +248,7 @@ main{
   display: block;
   position: absolute;
   padding: 5px 40px;
-  top: 30px;
+  top: 10px;
   right: 30px;
 }
 
@@ -270,9 +271,6 @@ main{
   padding: 60px 50px;
 }
 
-#partner p{
-  font-size: 16px;
-}
 
 #partner .c-white{
   display: inline-block;
@@ -280,7 +278,6 @@ main{
   background-color: white;
   border: 1px solid black;
   color: black;
-  font-size: 16px;
 }
 
 #partner .c-white:hover{
@@ -289,11 +286,59 @@ main{
   border: 1px solid rgb(231, 225, 225);
   color: white;
 }
+/*******************SECTION BUSINESS*/
+#business .row{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#business .col{
+  width: 300px;
+}
+
+#business h3{
+  padding-bottom: 10px;
+}
+
+#business img{
+  width: 100%;
+}
+
 
 /*******************SECTION TEAM*/
 #team{
   max-width: 60%;
 }
+
+
+/******************FOOTER*************/
+footer{
+  color: white;
+  background-color: black;
+}
+
+footer .row{
+  justify-content: space-between;
+  margin:0 auto;
+}
+footer .col{
+  padding: 100px 0;
+}
+footer li{
+  line-height: 40px;
+}
+footer li:first-child{
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+footer .language{
+  padding: 50px 0;
+  border-top: 1px solid white;
+
+}
+
 /* CONTROLLAREEEE */
 #tariffa li.user::before{
   content:'\f0c0';
