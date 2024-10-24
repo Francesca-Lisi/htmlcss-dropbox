@@ -10,6 +10,29 @@ li{
   list-style-type: none;
 }
 
+h2{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+h3{
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+section{
+  margin-bottom: 150px;
+}
+
+a.button{
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
 .debug{
   background-color: rgba(127, 255, 255, 0.151);
   border: 1px solid black;
@@ -23,7 +46,7 @@ li{
 .container{
   max-width: 1000px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding-top: 150px;
 }
 
 .container-hf{
@@ -36,6 +59,7 @@ li{
   padding: 12px 15px;
   color: white;
 }
+
 /***************HEADER***************/
 
 .hero{
@@ -88,13 +112,13 @@ nav ul li{
 
 a.button{
   line-height: 28px;
-  margin: 20px;
   padding: 5px 15px;
 }
 
 a img{
   margin-top: 25px;
 }
+
 .hero h1{
   font-size: 75px;
   font-weight: 800;
@@ -145,25 +169,13 @@ main{
   width: 1000px;
 }
 
-#tariffa h2{
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 60px;
-}
-
-#tariffa h3{
-  font-size: 25px;
-  font-weight: 800;
-  margin-bottom: 15px;
+.inner-conteiner{
+  padding: 30px 30px;
 }
 
 .fatturazione{
   display: inline;
   margin-right: 50px;
-}
-
-.inner-conteiner{
-  padding: 30px 30px;
 }
 
 #tariffa .row{
@@ -207,9 +219,8 @@ main{
 
 #tariffa span.button{
   display: block;
-  text-align: center;
-  font-weight: 500;
   margin: 30px auto;
+  text-align: center;
 }
 
 #tariffa .or{
@@ -232,10 +243,11 @@ main{
   padding-left: 0;
 }
 
-.card-bottom span.button.cb{
+.card-bottom a.button.cb{
   display: block;
   position: absolute;
-  top: 0px;
+  padding: 5px 40px;
+  top: 30px;
   right: 30px;
 }
 
@@ -243,10 +255,49 @@ main{
   background-color: #3f89ff;
 }
 
-/* #tariffa li.user::before{
-  content:'--user';
+/************SECTION PARTNER*/
+
+#partner .pic{
+  max-width: 60%;
+}
+
+#partner img{
+  width: 100%;
+} 
+
+#partner .text{
+  max-width: 40%;
+  padding: 60px 50px;
+}
+
+#partner p{
+  font-size: 16px;
+}
+
+#partner .c-white{
+  display: inline-block;
+  margin-top: 30px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-size: 16px;
+}
+
+#partner .c-white:hover{
+  margin-top: 30px;
+  background-color: rgb(192, 192, 192);
+  border: 1px solid rgb(231, 225, 225);
+  color: white;
+}
+
+/*******************SECTION TEAM*/
+#team{
+  max-width: 60%;
+}
+/* CONTROLLAREEEE */
+#tariffa li.user::before{
+  content:'\f0c0';
   position: absolute;
   left: 0;
-} */
+}
 
-/* <i class="fa-solid fa-user-group"></i> */
